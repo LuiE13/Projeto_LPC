@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/home.css">
+    <script src="carrossel.js" defer></script>
+    <title>Home</title>
+</head>
+<body>
+    <header id="boxoofgg"> <!--Aqui começa o menu-->          
+        <div class="navegaaa">
+            <div class="menu">
+                <a href="home.html" class="logo"><img src="/fotinhas/logoprov.png" alt="logo"></a> <!--Logo que também é um botão para homepage-->
+                
+                <nav>
+                    <ul> <!--Os botões para navegar pelo site-->
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="cardapio.html">Cardápio</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="localizacao.html">Localização</a></li>
+                    </ul>
+                </nav>
+
+                <div class="redsocial"> <!--Os ícones/botões que levam para as redes sociais-->
+                    <a href="https://www.instagram.com/"><img src="/fotinhas/instagram.png" alt=""></a>
+                    <a href="https://www.facebook.com/?locale=pt_BR"><img src="/fotinhas/facebook.png" alt=""></a>
+                    <a href="#"><img src="/fotinhas/tiktok.png" alt=""></a>
+                    <a href="#"><img src="/fotinhas/twitter.png" alt=""></a>
+                </div>
+            </div>
+        </div>         
+    </header> <!--Aqui termina o menu-->
+
+    <section class="cafeee"> <!--Vídeo e frase estão dentro dessa section-->
+        <video class="videooo" autoplay loop> <!--Faz o vídeo começar e faz ficar se repetindo eternamente........-->
+            <source src="/videozin/cofcof.mp4"> <!--O vídeo-->
+        </video>
+        <h1>VENHA CONECER O <br><span>CAFÉ DE LA LUNE</span></h1> <!--Texto que fica em cima do vídeo-->
+    </section> <!--Aqui termina a parte do vídeo e do menu-->
+    
+
+    <hr class="hr1"> <!--Aqui termina o Topo?(início, sla) da página-->
+    
+    <div class="cardapiooo"> <!--Aqui dentro fica o carrossel e o texto com botão do cardápio-->
+        <section class="carros"><!--Aqui é onde fica o carrossel (carros carrossel...)-->
+            <button class="bolas"></button>
+            <button class="bolas"></button>
+            <button class="bolas"></button>
+            <div class="esquerda">
+                <!--Esses radios são as bolinhas que indicam em que imagem tá-->
+                <input type="radio" name="btn-radio" id="radio1"> 
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <div class="slide-box primeiro"> <!--Imagens com link que levam para o cardápio-->
+                    <a href="cardapio.html"><img class="imagemnovi" src="/fotinhas/carrossell-cafe1.jpg"></a>
+                </div>
+                <div class="slide-box">
+                    <a href="cardapio.html"><img class="imagemnovi" src="/fotinhas/carrossell-cafe2.jpg" alt=""></a>
+                </div>
+                <div class="slide-box">
+                    <a href="cardapio.html"><img class="imagemnovi" src="/fotinhas/carrossell-cafe3.jpg" alt=""></a>
+                </div>
+                <!--Isso aqui é pra criar a navegação sem precisar clicar eu acho-->
+                <div class="navegauto"> 
+                    <div class="autobtn1"></div>
+                    <div class="autobtn2"></div>
+                    <div class="autobnt3"></div>
+                </div>  
+                <!--Isso aqui é para fazer a navegação clicando? não lembro-->                
+                <div class="navegmanu"> 
+                    <label for="radio1" class="btnmanu"></label>
+                    <label for="radio2" class="btnmanu"></label>
+                    <label for="radio3" class="btnmanu"></label>
+                </div>
+            </div>
+        </section>
+    </div>
+        <hr class="hr2">
+
+</body>
+</html>
+
+<!--
+<Video autoplay>
+    <source src="./videozin/cafevideo.mp4">
+</Video> -->

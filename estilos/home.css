@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #dfc49b;
+}
+
+html {
+    height: 500vh;
+}
+
+.navegaaa { /*Aqui começa a estilização do menu, depos eu falo o que cada coisa faz(estou com preguiça agora)*/
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 30px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .80s;
+    z-index: 10;
+}
+
+header.rolarola {
+    background-color: aliceblue;
+    padding: 12px 4%;
+    
+}
+
+header.rolarola a {
+    color: #6a4529;
+}
+
+header.rolarola a:hover {
+    color: #b37f5788;
+}
+
+.logo img {
+    height: 9vh;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #6a4529;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s, color 0.3s;
+}
+
+
+header ul li a:hover {
+    color: #dfc49b;
+}
+
+
+header .redsocial img {
+    width: 30px; 
+    transition: transform 0.3s; 
+}
+
+header .redsocial img:hover { 
+    transform: scale(1.6); 
+} /*Aqui acaba a estilização do menu*/
+
+.cafeee { /*Aqui começa a estilização do vídeo*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cafeee .videooo {
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.cafeee h1 { /*Aqui é a estilização do texto que tá em cima do vídeo*/
+    position: absolute; /* Posiciona o h1 em relação à seção */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para o centro */
+    font-size: 5em;
+    color: #8a6040;
+    z-index: 2; /* Garante que o texto fique acima do vídeo */
+    text-align: center; /* Centraliza o texto */
+    text-shadow: 2px 2px 4px #94765f79, 0 0 25px rgba(0, 0, 0, 0.5);
+} 
+ 
+.cafeee h1 span { /*Aqui é a estilização da parte do texto que tá de cor diferente*/
+    color: #bea08a;
+    margin-top: 10px;
+}  
+
+
+.imagemnovi{
+    width: 50%;   
+}
+
+.carros{
+    width: 100%;
+}
+.esquerda{
+    display: flex;
+    overflow: hidden;
+}
+/*ESQUERDA PORRAAAAA *EMOJIS DE FOGUINHO* */
+/*Eitaaaaaaa*//*LÁ ELE MIL VEZES*/
+
+
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dfc49b;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.navegaaa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2; /* Navegação acima do vídeo *
+    display: flex;
+    align-items: center; /* Alinha itens verticalmente *
+    padding: 15px 20px; /* Espaçamento interno *
+    position: fixed;
+}
+
+.navegaaa .logo img {
+    width: 65px; /* Tamanho da logo *
+    margin-right: 20px; /* Espaço entre a logo e os links *
+}
+
+.navegaaa ul {
+    display: flex; /* Exibe itens em linha *
+    list-style-type: none; /* Remove marcadores *
+    margin-left: auto; /* Empurra a lista para a direita *
+    gap: 20px; /* Espaçamento entre os itens *
+}
+
+.navegaaa ul li {
+    position: relative; /* Para efeitos de sub-menu *
+}
+
+.navegaaa ul li a {
+    color: #6a4529; /* Cor dos links *
+    text-decoration: none; /* Remove sublinhado *
+    font-size: 22px;
+    padding: 15px; /* Espaçamento interno dos links *
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para hover *
+    border-radius: 5px; /* Bordas arredondadas *
+}
+
+.navegaaa ul li a:hover {
+    background-color: #6a452988; /* Fundo claro ao passar o mouse *
+}
+
+.redsocial {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os ícones *
+    margin-left: 20px; /* Espaço entre links e ícones *
+}
+
+.redsocial img {
+    width: 30px; /* Tamanho dos ícones *
+    transition: transform 0.3s; /* Efeito de transição *
+}
+
+.redsocial img:hover {
+    transform: scale(1.6); /* Efeito de zoom ao passar o mouse *
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Altura do vídeo, ajuste conforme necessário *
+    overflow: hidden; /* Oculta qualquer excesso do vídeo *
+}
+
+.videooo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cobre a área do vídeo sem distorção *
+}
+
+.hr1 {
+    margin-top: 750px;
+}*/
+
+
+/*carrossel
+
+section.carros {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    height: auto;
+    
+}
+
+.esquerda{
+	float: left;
+	margin-top: 100px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    display: flex;
+}
+
+.esquerda input{
+    display: none;
+}
+
+.slide-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+   
+    transition: 1s;
+    margin: 0;    
+}
+
+.slide-box img {
+    width: 50%;
+    border-radius: 15px;
+}
+
+.navegmanu, .navegauto {
+    position: absolute;
+    width: 250px;
+    margin-top: 365px;
+    
+    display: flex;
+    
+}
+
+.navegmanu .btnmanu, .navegauto div {
+    border: 3px solid #6a4529;
+    margin-left: 500;
+    padding: 5px;
+    border-radius: 180px;
+    cursor: pointer;
+    transition: 0.45s;
+}
+
+.navegmanu .btnmanu, .navegauto div {
+    margin-right: 5px;
+}
+
+.navegmanu .btnmanu:hover {
+    background-color: #6a4529;
+}
+
+#radio1:checked ~ .navegauto .autobtn1{
+    background-color: #6a4529;
+}
+
+#radio2:checked ~ .navegauto .autobtn2{
+    background-color: #6a4529;
+}
+
+#radio3:checked ~ .navegauto .autobtn3{
+    background-color: #6a4529;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+
+.direita{
+	float: left;
+	margin-top: 1000px;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+    display: flex;
+}
+
+.hr2 {
+    margin-top: 2000px;
+}*/

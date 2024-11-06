@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #dfc49b;
+}
+
+html {
+    height: 500vh;
+}
+
+.navegaaa {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 30px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .80s;
+    z-index: 10;
+    background-color: aliceblue;
+}
+
+header.rolarola {
+    background-color: aliceblue;
+    padding: 12px 4%;
+    
+}
+
+header.rolarola a {
+    color: #6a4529;
+}
+
+header.rolarola a:hover {
+    color: #b37f5788;
+}
+
+.logo img {
+    height: 9vh;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #6a4529;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s, color 0.3s;
+}
+
+
+header ul li a:hover {
+    color: #dfc49b;
+}
+
+
+header .redsocial img {
+    width: 30px; 
+    transition: transform 0.3s; 
+}
+
+header .redsocial img:hover {
+    transform: scale(1.6); 
+}
+
+
+h1{
+    font-size: 200px;
+    margin-top: 400px;
+    
+}
