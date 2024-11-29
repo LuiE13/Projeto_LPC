@@ -5,6 +5,12 @@
     src: url("../fontesss/StarlightRune/StarlightRune.ttf");
 }
 
+:root {
+    --marrom-claro:  #dfc49b;
+    --marrom-escuro: #6a4529;
+    --marrom-bem-escuro: #402816;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +19,7 @@
 }
 
 body {
-    background-color: #dfc49b;
+    background-color: aliceblue;
 }
 
 html {
@@ -39,21 +45,7 @@ header {
     left: 0;
     transition: .80s;
     z-index: 10;
-    background-color: aliceblue;
-}
-
-header.rolarola {
-    background-color: aliceblue;
-    padding: 12px 4%;
-    
-}
-
-header.rolarola a {
-    color: #6a4529;
-}
-
-header.rolarola a:hover {
-    color: #b37f5788;
+    background-color: var(--marrom-claro);
 }
 
 .logo img {
@@ -70,7 +62,7 @@ header ul li {
 }
 
 header ul li a {
-    color: #6a4529;
+    color: var(--marrom-escuro);
     text-decoration: none;
     font-size: 20px;
     transition: color 0.3s, color 0.3s;
@@ -78,7 +70,7 @@ header ul li a {
 
 
 header ul li a:hover {
-    color: #dfc49b;
+    color: var(--marrom-bem-escuro);
 }
 
 
@@ -91,83 +83,38 @@ header .redsocial img:hover {
     transform: scale(1.6); 
 }
 
+/* CONTEÚDO */
 
-#titulo-cardapio{ 
-    display: flex;
+#titulo-cardapio {
+    margin-top: 180px;
     justify-content: center;
-    align-items: baseline;
-    margin-top: 200px;
-    font-size: 90px;
-    font-family: Stylebooks;
+    align-items: center;
+    display: flex;
+    font-family: 'Starlight Rune';
+    font-size: 140px;
 }
 
-
-/*Localização*/
-
-h1{
-    font-size: 200px;
-    margin-top: 200px;
-    text-align: center;
+.favoritos-quadros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
 
-.textinho{
-    background-color: #dfc49b;
-    height: 500px;
-    width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    
-}
-
-.naooo{
-    font-size: 50px;
-    
-    
-}
-
-.text{
-    
-    margin: 10px;
-    font-size: 40px;
-    font-family: Playfair Display;
-    text-align: justify;
-}
-
-.funciona{
-    background-color: #6a4529;
-    text-align: center;
+.favoritos-quadros img{
     width: 350px;
-    height: 450px;
-    margin-left: 50px;
-    margin-top: 200px;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 130px 130px 0px 0px;
 }
 
-video{
-    width: 50vw;
-    margin-left: 400px;
+.cafe-gelado h1 {
+    margin: 90px 0px 10px 30px;
+    font-weight:400;
+    font-size: 45px;
 }
 
-hr{
-    margin-top: 300px;
-}
-
-iframe{
-    width: 100%;
-    margin-top: 40px;
-}
-
-h3{
-    text-align: center;
-    font-size: 50px;
-}
-
-h2{
-    font-size: 35px;
-}
-
-p{
-    font-size: 30px;
-    font-family: Playfair Display;
+.cafe-linha {
+    width: 1150px;
+    margin: 0px 10px 0px 30px;
 }
