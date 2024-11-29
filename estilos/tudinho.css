@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-@font-face{
-    font-family: 'Starlight Rune';
-    src: url("../fontesss/StarlightRune/StarlightRune.ttf");
-}
 
 * {
     margin: 0;
@@ -13,7 +9,7 @@
 }
 
 body {
-    background-color: #dfc49b;
+    background-color: aliceblue;
 }
 
 html {
@@ -39,11 +35,11 @@ header {
     left: 0;
     transition: .80s;
     z-index: 10;
-    background-color: aliceblue;
+    background-color: #dfc49b;
 }
 
 header.rolarola {
-    background-color: aliceblue;
+    background-color: #dfc49b;
     padding: 12px 4%;
     
 }
@@ -92,16 +88,6 @@ header .redsocial img:hover {
 }
 
 
-#titulo-cardapio{ 
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    margin-top: 200px;
-    font-size: 90px;
-    font-family: Stylebooks;
-}
-
-
 /*Localização*/
 
 h1{
@@ -112,7 +98,6 @@ h1{
 }
 
 .textinho{
-    background-color: #dfc49b;
     height: 500px;
     width: 1050px;
     margin-left: auto;
@@ -136,12 +121,17 @@ h1{
 }
 
 .funciona{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.textes{
     background-color: #6a4529;
     text-align: center;
-    width: 350px;
-    height: 450px;
-    margin-left: 50px;
-    margin-top: 200px;
+    height: 360px;
+    
+   
 }
 
 video{
