@@ -4,4 +4,4 @@ Bia e Jubs façam o commit na branch principal a outra eu fiz só pra botar a mi
 
 luiz se mata fazendo o favor ! mas só se possivel, claro 
 
-Felizmente eu acredito que seja algo viavel o suicído do Luiz
+eu adicionei mais uma fonte no projeto que combinasse com as outras. motivo: a fonte principal usada é muito grossa e deixa o design grosseiro demais - jubs

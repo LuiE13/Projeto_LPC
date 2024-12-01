@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face{
     font-family: 'Starlight Rune';
@@ -9,6 +10,7 @@
     --marrom-claro:  #dfc49b;
     --marrom-escuro: #6a4529;
     --marrom-bem-escuro: #402816;
+    --marrom-extremamente-escuro: #1b130b;
   }
 
 * {
@@ -108,13 +110,462 @@ header .redsocial img:hover {
     border-radius: 130px 130px 0px 0px;
 }
 
-.cafe-gelado h1 {
+/* PARTE DOS CAFÉS GELADOS */
+
+.cafe #titulo-gelado {
     margin: 90px 0px 10px 30px;
     font-weight:400;
     font-size: 45px;
+    color: var(--marrom-extremamente-escuro);
 }
 
 .cafe-linha {
-    width: 1150px;
-    margin: 0px 10px 0px 30px;
+    width: 1500px;
+    margin: 0px 10px 30px 30px;
+}
+
+.textos-produtos {
+    max-width: 871.88px;
+    min-width: 871.88px;
+}
+
+.linha-pequena {
+    width: 1500px;
+    margin: 0px 10px 30px 30px;
+}
+
+.produto-geral {
+    display: flex;
+    justify-content: center;
+}
+
+#gelado-imagem1 {
+    width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#gelado-titulo1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#gelado-texto1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#gelado-preco1{
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 2 */
+
+#gelado-imagem2 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#gelado-titulo2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#gelado-texto2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#gelado-preco2 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 3 */
+
+#gelado-imagem3 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#gelado-titulo3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#gelado-texto3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#gelado-preco3 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 4 */
+
+#gelado-imagem4 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#gelado-titulo4 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#gelado-texto4 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#gelado-preco4 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* AQUI COMEÇAM OS CAFÉS QUENTES */
+
+.cafe #titulo-tradicional {
+    margin: 90px 0px 10px 30px;
+    font-weight:400;
+    font-size: 45px;
+    color: var(--marrom-extremamente-escuro);
+}
+
+#tradicional-imagem1 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#tradicional-titulo1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#tradicional-texto1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#tradicional-preco1{
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 2 */
+
+#tradicional-imagem2 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#tradicional-titulo2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#tradicional-texto2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#tradicional-preco2 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 3 */
+
+#tradicional-imagem3 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#tradicional-titulo3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#tradicional-texto3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#tradicional-preco3 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 4 */
+
+#tradicional-imagem4 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#tradicional-titulo4 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#tradicional-texto4 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#tradicional-preco4{
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* PARTE DA PADARIA AIII TOME */
+
+.cafe #titulo-padaria {
+    margin: 90px 0px 10px 30px;
+    font-weight:400;
+    font-size: 45px;
+    color: var(--marrom-extremamente-escuro);
+}
+
+#padaria-imagem1 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#padaria-titulo1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#padaria-texto1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#padaria-preco1{
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 2 */
+
+#padaria-imagem2 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#padaria-titulo2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#padaria-texto2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#padaria-preco2 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 3 */
+
+#padaria-imagem3 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#padaria-titulo3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#padaria-texto3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#padaria-preco3 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 4 */
+
+#padaria-imagem4 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#padaria-titulo4 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#padaria-texto4 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#padaria-preco4 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 5 */
+
+#padaria-imagem5 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#padaria-titulo5 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#padaria-texto5 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    
+}
+
+#padaria-preco5 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+/* 6 */
+
+#padaria-imagem6 {
+width: 100px;
+    margin: 0px 40px 30px 30px;
+}
+
+#padaria-titulo6 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#padaria-texto6 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
+}
+
+#padaria-preco6 {
+    margin: 40px 0px 0px 60px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--marrom-bem-escuro);
 }
