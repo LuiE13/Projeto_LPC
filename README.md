@@ -5,3 +5,6 @@ Bia e Jubs façam o commit na branch principal a outra eu fiz só pra botar a mi
 luiz se mata fazendo o favor ! mas só se possivel, claro 
 
 eu adicionei mais uma fonte no projeto que combinasse com as outras. motivo: a fonte principal usada é muito grossa e deixa o design grosseiro demais - jubs
+
+
+Mentira mano, vc só espalha fake news
