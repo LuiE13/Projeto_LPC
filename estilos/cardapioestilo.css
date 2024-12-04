@@ -120,17 +120,18 @@ header .redsocial img:hover {
 }
 
 .cafe-linha {
-    width: 1500px;
+    width: 95%;
     margin: 0px 10px 30px 30px;
 }
 
 .textos-produtos {
     max-width: 871.88px;
     min-width: 871.88px;
+    margin-top: 20px;
 }
 
 .linha-pequena {
-    width: 1500px;
+    width: 95%;
     margin: 0px 10px 30px 30px;
 }
 
