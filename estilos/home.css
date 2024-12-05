@@ -122,7 +122,61 @@ header .redsocial img:hover {
 }  
 
 
-.imagemnovi{
+
+
+/*carosell*/
+.cardapio{
+    margin: 50px 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.caro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.sel{
+    display: flex;
+    width: 300%;
+    
+}
+
+.sel img{
+    width: 200%;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+.troca-troca{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.troca-troca button{
+    width:20px;
+    height:20px;
+    border: 1px solid #000;
+    background-color: #bea08a;
+	border-radius: 3vh;
+	cursor: pointer;
+}
+
+#b1{
+    width:25px;
+    height:25px;
+    background-color: #8a6040;
+}
+
+/* .imagemnovi{
     width: 50%;   
 }
 
@@ -132,7 +186,7 @@ header .redsocial img:hover {
 .esquerda{
     display: flex;
     overflow: hidden;
-}
+} */
 /*ESQUERDA PORRAAAAA *EMOJIS DE FOGUINHO* */
 /*Eitaaaaaaa*//*LÁ ELE MIL VEZES*/
 
