@@ -13,10 +13,28 @@ window.addEventListener('scroll', function(){
                 }
         }, 10000);
     }   
-        
-        
+    let imag = document.querySelector('#xicras')
+    
+     if (window.scrollY>2500 && window.scrollY<3275 ){
+        imag.style.left=imagem((window.scrollY-2500)/10)+"%"
+        if (window.scrollY<2700) {
+            imag.src='fotinhas/Muji_Beige_Porcelain_Mug_Cup_Small_210ml_15916245_Made_In_Japan_Microwave_Safe-removebg-preview.png'
+        }else if (window.scrollY<2900) {
+            imag.src='fotinhas/ghsdfys-removebg-preview.png'
+        }else if (window.scrollY<3200) {
+            imag.src='fotinhas/ghsdfys2-removebg-preview.png'
+        }else if (window.scrollY<3350) {
+            imag.src='fotinhas/ghsdfys3-removebg-preview.png'
+        }
+     }  
     
 })
+
+function imagem(caceta) {
+    let left 
+    left=caceta+5
+    return left
+}
 
 function slider(imag) {
     let imagem1 = document.querySelector("#i1"), imagem2 = document.querySelector("#i2"), imagem3 = document.querySelector("#i3")
@@ -71,13 +89,13 @@ function slider(imag) {
 
 //imagem que mexe
 
-const rolaarola = document.querySelector('.faixada')
+// const rolaarola = document.querySelector('.faixada')
 
-const olhano = new IntersectionObserver( (asvezes) => {
-    console.log(asvezes)
-})
+// const olhano = new IntersectionObserver( (asvezes) => {
+//     console.log(asvezes)
+// })
 
-olhano.observe(rolaarola)
+// olhano.observe(rolaarola)
 
 //carrossel
 
