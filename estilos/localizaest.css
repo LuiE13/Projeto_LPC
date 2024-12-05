@@ -166,6 +166,9 @@ p{
 	margin-bottom: 40px;
 }
 
+iframe{
+    width: 100%;
+}
 
 /*Rodape*/
 .rodaopé{
@@ -174,24 +177,53 @@ p{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 80px 4%;    
+    padding: 80px 6%;    
 }
 
 .rodaopé ul li a{
     list-style: none;
     text-decoration: none;
     list-style-type: none;
+    color: var(--marrom-escuro);
+}
+
+.navgSite ul li a:hover{
+    color: var(--marrom-bem-escuro);
 }
 
 .fala{
-    color: #000;    
+    width: 20%;
+    color: #000;  
 }
 
-.falar{
+.falar li{
     list-style-type: none;
+    list-style: none;
+    color: var(--marrom-escuro);
+    font-size: 12px;
+}
+
+.falar ul li a :hover{
+    list-style-type: none;
+    list-style: none;
+    color: var(--marrom-escuro);
+    font-size: 12px;
+}
+
+.navgSite{
+    width: 40%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.navgSite li{
+    text-align: center;
+    width: 15%;
 }
 
 .navegaNSite{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -199,5 +231,26 @@ p{
 }
 
 .direitos{
-    font-size: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redspe{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+
+.redspe a{
+    width: 10%;
+    margin: 2px;
+}
+
+.redspe img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+.redspe img:hover {
+    transform: scale(1.6); 
 }
