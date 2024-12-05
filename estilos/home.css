@@ -38,7 +38,7 @@ header {
 }
 
 header.rolarola {
-    background-color: aliceblue;
+    background-color: #ffffff;
     padding: 12px 4%;
     
 }
@@ -121,22 +121,19 @@ header .redsocial img:hover {
     margin-top: 10px;
 }  
 
-
-
-
-/*carosell*/
+/*___________________________________carosell______________________________*/
 .cardapio{
-    margin: 50px 0;
+    margin-top: 150px;
     display: flex;
-    box-sizing: border-box;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
 }
 
 .caro{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     overflow: hidden;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -150,7 +147,7 @@ header .redsocial img:hover {
 }
 
 .sel img{
-    width: 200%;
+    width: 100%;
     transition: 0.3s;
     border-radius: 30px;
 }
@@ -159,7 +156,7 @@ header .redsocial img:hover {
     width: 100%;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .troca-troca button{
     width:20px;
@@ -176,7 +173,137 @@ header .redsocial img:hover {
     background-color: #8a6040;
 }
 
-/* .imagemnovi{
+.txtcarda{ /*Texto cardápio*/
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 3750x;
+}
+
+.txtcarda p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+
+.txtcarda p span{
+    color: #6a4529;
+    font-family: Playfair Display;
+}
+
+.txtcarda button{ /*O botão que eu fiz ficou todo cagado mais deu certo*/
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    background-color:#8a6040;
+    font-size: 20px;
+    height: 66px;
+    width: 200px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.txtcarda button a{
+    color: #dfc49b;
+    text-decoration: none;
+}
+
+.txtcarda button:hover{
+    background-color: #6a4529;
+    color:antiquewhite;
+}/*Final da estilização das coisas que estão dentro da div com o carrossel e o textonho*/
+
+
+.parte2{ /*Div da parte da página com a imagem que mexe e o textinho*/
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textin{ /*Div com o horário de funcionamento*/
+    text-align: center;
+    width: 350px;
+    height: 3750x;
+}
+
+
+.acafeteria img{
+    width: 50vw;
+    border-radius: 20px;
+}
+
+hr{
+    margin-top: 150px;
+    background-color: aliceblue;
+}
+
+.textin p{
+   text-align: justify;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+
+
+.parte3{
+    height: 250px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte3 p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+
+.parte3 button{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    background-color:#8a6040;
+    font-size: 25px;
+    height: 80px;
+    width: 350px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.parte3 button a{
+    color: #dfc49b;
+    text-decoration: none;
+}
+
+.parte3 button:hover{
+    background-color: #6a4529;
+    color:antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.imagemnovi{
     width: 50%;   
 }
 
@@ -186,8 +313,8 @@ header .redsocial img:hover {
 .esquerda{
     display: flex;
     overflow: hidden;
-} */
-/*ESQUERDA PORRAAAAA *EMOJIS DE FOGUINHO* */
+}
+ESQUERDA PORRAAAAA *EMOJIS DE FOGUINHO* */
 /*Eitaaaaaaa*//*LÁ ELE MIL VEZES*/
 
 

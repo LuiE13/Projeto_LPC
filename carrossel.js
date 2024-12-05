@@ -69,6 +69,15 @@ function slider(imag) {
     
 }
 
+//imagem que mexe
+
+const rolaarola = document.querySelector('.faixada')
+
+const olhano = new IntersectionObserver( (asvezes) => {
+    console.log(asvezes)
+})
+
+olhano.observe(rolaarola)
 
 //carrossel
 
