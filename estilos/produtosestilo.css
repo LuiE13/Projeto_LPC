@@ -81,7 +81,7 @@ header .redsocial img:hover {
     transform: scale(1.6); 
 }
 
-/* CONTEÚDO */
+/* CONTEÚDO - PARTE DO CARROSSEL*/
 
 section.slider {
     margin: 0 auto;
@@ -89,6 +89,7 @@ section.slider {
     height: auto;
     padding: 0;
     overflow: hidden;
+    margin-top: 150px;
 }
 
 .slider-content {
@@ -109,13 +110,14 @@ section.slider {
 }
 
 .slide-box img {
-    width: 100%;
+    width: 90%;
+    border: 1px solid var(--marrom-escuro);
 }
 
 .nav-manual, .nav-auto {
     position: absolute;
     width: 100%;
-    margin-top: 35%;
+    margin-top: 31%;
     display: flex;
     justify-content: center;
 }
@@ -128,7 +130,7 @@ section.slider {
     transition: 1s;
 }
 
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(last-child) {
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -136,7 +138,81 @@ section.slider {
     background-color: var(--marrom-escuro);
 }
 
-/*Rodape*/
+#radio1:checked ~ .nav-auto .auto-btn1 {
+    background-color: var(--marrom-escuro);
+
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+    background-color: var(--marrom-escuro);
+
+}
+#radio3:checked ~ .nav-auto .auto-btn3 {
+    background-color: var(--marrom-escuro);
+}
+
+#radio1:checked ~ .primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro {
+    margin-left: -50%;
+}
+
+/* PARTE DE BAIXO*/
+
+.textos-produtos {
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.textos-produtos h1 {
+    font-family: 'Starlight Rune';
+    font-size: 140px;
+}
+
+.textos-produtos p {
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    color: var(--marrom-bem-escuro);
+}
+
+.produtos-geral {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.produtos-geral p {
+    text-align: center;
+    font-family:  'Playfair Display';
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--marrom-bem-escuro);
+}
+
+.produtos-geral .preço {
+    font-size: 15px;
+    color: var(--marrom-escuro);
+}
+
+.produtos-geral img{
+    width: 270px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid var(--marrom-bem-escuro);
+}
+
+/* RODAPÉ */
+
 .rodaopé{
     background-color: var(--marrom-claro);
     display: flex;
