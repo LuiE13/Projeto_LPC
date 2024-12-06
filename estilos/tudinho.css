@@ -182,3 +182,16 @@ header .redsocial img:hover {
     transform: scale(1.6); 
 }
 
+
+/*Aqui começa a putaria.............*/
+
+/*home*/
+.cardapio .parte2 .parte3 .email{
+    display: grid;
+    min-height: 100vh;
+}
+
+/*Localização*/
+.naooo .textinho .funciona .ondeIr{
+    opacity: 0;
+}

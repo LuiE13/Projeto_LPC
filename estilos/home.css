@@ -155,17 +155,18 @@ header .redsocial img:hover {
     justify-content: center;
 }
 .troca-troca button{
-    width:20px;
-    height:20px;
+    width:18px;
+    height:18px;
     border: 1px solid #000;
     background-color: #bea08a;
 	border-radius: 3vh;
 	cursor: pointer;
+    margin: 6px;
 }
 
 #b1{
-    width:25px;
-    height:25px;
+    width: 18px;
+    height:18px;
     background-color: #8a6040;
 }
 
@@ -246,11 +247,11 @@ hr{
 
 
 .parte3{
+    margin-top: 150px;
     height: 250px;
     width: 920px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -299,6 +300,40 @@ hr{
     position: relative;
     left: 5%;
 }
+
+.email{
+    margin-top: 250px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-block-end: 50px;
+}
+
+.ema{
+    font-size: 20px;
+    font-family: Playfair Display;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 12px;
+    height: 50px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1.5px solid #6a4529;
+    outline: none;
+    background-color: #e0d2bd;
+}
+
+.btn{
+    padding: 12px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #e0d2bd;
+    background-color: #6a4529;
+    color: antiquewhite;
+}   
 
 /*Rodape*/
 .rodaopé{
@@ -384,6 +419,28 @@ hr{
 .redspe img:hover {
     transform: scale(1.6); 
 }
+
+/*Estou fazendo merda aqui, tenha cuidado*/
+
+.tudo{
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateX(-100%);
+    transition: all 2.9s;
+}
+
+.apareceu{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 2.2s;
+}
+
+
+/*.comofazcafe{
+    min-height: 100vh;
+}*/
+
 
 /*.imagemnovi{
     width: 50%;   

@@ -35,7 +35,6 @@ function imagem(caceta) {
     left=caceta+5
     return left
 }
-
 function slider(imag) {
     let imagem1 = document.querySelector("#i1"), imagem2 = document.querySelector("#i2"), imagem3 = document.querySelector("#i3")
     let bota1 = document.querySelector("#b1"), bota2 = document.querySelector("#b2"), bota3 = document.querySelector("#b3")
@@ -44,12 +43,6 @@ function slider(imag) {
             imagem1.style.translate="0"
             imagem2.style.translate="0"
             imagem3.style.translate="0"
-            bota1.style.width='25px'
-            bota1.style.height='25px'
-            bota2.style.width='20px'
-            bota2.style.height='20px'
-            bota3.style.width='20px'
-            bota3.style.height='20px'
             bota1.style.background='#8a6040'
             bota2.style.background='#bea08a'
             bota3.style.background='#bea08a'
@@ -59,12 +52,6 @@ function slider(imag) {
             imagem1.style.translate="-100%"
             imagem2.style.translate="-100%"
             imagem3.style.translate="-100%"
-            bota2.style.width='25px'
-            bota2.style.height='25px'
-            bota1.style.width='20px'
-            bota1.style.height='20px'
-            bota3.style.width='20px'
-            bota3.style.height='20px'
             bota2.style.background='#8a6040'
             bota1.style.background='#bea08a'
             bota3.style.background='#bea08a'
@@ -73,12 +60,6 @@ function slider(imag) {
             imagem1.style.translate="-200%"
             imagem2.style.translate="-200%"
             imagem3.style.translate="-200%"
-            bota3.style.width='25px'
-            bota3.style.height='25px'
-            bota1.style.width='20px'
-            bota1.style.height='20px'
-            bota2.style.width='20px'
-            bota2.style.height='20px'
             bota3.style.background='#8a6040'
             bota2.style.background='#bea08a'
             bota1.style.background='#bea08a'
@@ -87,15 +68,27 @@ function slider(imag) {
     
 }
 
+
 //imagem que mexe
 
-// const rolaarola = document.querySelector('.faixada')
+const olhano = new IntersectionObserver( (asvezes) => {
+    asvezes.forEach( (felas) => {
+        if (felas.isIntersecting){
+            felas.target.classList.add('apareceu')
+        } //else {
+          //  felas.target.classList.remove('apareceu')
+        //}
+    } )
+})
 
-// const olhano = new IntersectionObserver( (asvezes) => {
-//     console.log(asvezes)
-// })
+const rolaarola = document.querySelectorAll('.tudo')
 
-// olhano.observe(rolaarola)
+rolaarola.forEach( (element) => olhano.observe(element))
+
+
+
+
+
 
 //carrossel
 
@@ -117,5 +110,3 @@ function slider(imag) {
 
 //     document.getElementById('radio'+cont).checked = true
 // }
-
-

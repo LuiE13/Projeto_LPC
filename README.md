@@ -126,3 +126,6 @@ HTML
         </div>
     </footer>
     
+
+
+Tudo isso é inveção do governo para vender site
