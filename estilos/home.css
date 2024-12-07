@@ -296,13 +296,13 @@ hr{
 
 .comofazcafe img{
     width: 10vw;
-    transition: .9s;
+    transition: 3s;
     position: relative;
     left: 5%;
+    margin-bottom: 250px;
 }
 
 .email{
-    margin-top: 250px;
     align-items: center;
     text-align: center;
     justify-content: center;
