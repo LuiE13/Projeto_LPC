@@ -13,28 +13,25 @@ window.addEventListener('scroll', function(){
                 }
         }, 10000);
     }   
-    let imag = document.querySelector('#xicras')
+
+
+    // let imag = document.querySelector('#xicras')
     
-     if (window.scrollY>2500 && window.scrollY<3275 ){
-        imag.style.left=imagem((window.scrollY-2500)/10)+"%"
-        if (window.scrollY<2700) {
-            imag.src='fotinhas/Muji_Beige_Porcelain_Mug_Cup_Small_210ml_15916245_Made_In_Japan_Microwave_Safe-removebg-preview.png'
-        }else if (window.scrollY<2900) {
-            imag.src='fotinhas/ghsdfys-removebg-preview.png'
-        }else if (window.scrollY<3200) {
-            imag.src='fotinhas/ghsdfys2-removebg-preview.png'
-        }else if (window.scrollY<3350) {
-            imag.src='fotinhas/ghsdfys3-removebg-preview.png'
-        }
-     }  
+    //  if (window.scrollY>2500 && window.scrollY<3275 ){
+    //     imag.style.left=imagem((window.scrollY-2500)/10)+"%"
+    //     if (window.scrollY<2700) {
+    //         
+    //     }else if (window.scrollY<2900) {
+    //         imag.src='fotinhas/ghsdfys-removebg-preview.png'
+    //     }else if (window.scrollY<3200) {
+    //         imag.src='fotinhas/ghsdfys2-removebg-preview.png'
+    //     }else if (window.scrollY<3350) {
+    //         imag.src='fotinhas/ghsdfys3-removebg-preview.png'
+    //     }
+    //  }  
     
 })
 
-function imagem(caceta) {
-    let left 
-    left=caceta+5
-    return left
-}
 function slider(imag) {
     let imagem1 = document.querySelector("#i1"), imagem2 = document.querySelector("#i2"), imagem3 = document.querySelector("#i3")
     let bota1 = document.querySelector("#b1"), bota2 = document.querySelector("#b2"), bota3 = document.querySelector("#b3")
@@ -86,8 +83,40 @@ const rolaarola = document.querySelectorAll('.tudo')
 rolaarola.forEach( (element) => olhano.observe(element))
 
 
+//vamo brinca
 
+const xica = document.querySelector(".comofazcafe")
 
+const options = {
+    root:null,
+    threshold: [0,0.25,0.50,0.75,1]
+}
+
+const comoe = new IntersectionObserver((oloko) =>{
+    oloko.forEach((entra) =>{
+        let imag = document.querySelector('#xicras')
+        let qnt = entra.intersectionRatio
+        if (entra.isIntersecting) {
+           if (qnt<0.25) {
+                imag.src='fotinhas/Muji_Beige_Porcelain_Mug_Cup_Small_210ml_15916245_Made_In_Japan_Microwave_Safe-removebg-preview.png'
+                imag.style.left="25%"
+           } else if (qnt<0.5) {
+                imag.src='fotinhas/ghsdfys-removebg-preview.png'
+                imag.style.left="40%"
+           } else if (qnt<0.75) {
+                imag.src='fotinhas/ghsdfys2-removebg-preview.png'
+                imag.style.left="60%"
+           } else {
+                imag.src='fotinhas/ghsdfys3-removebg-preview.png'
+                imag.style.left="80%"
+           }  
+        }else{
+            imag.style.left="0"
+        }
+    })
+},options)
+
+comoe.observe(xica)
 
 
 //carrossel
